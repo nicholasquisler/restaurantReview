@@ -1,0 +1,24 @@
+{
+  "name": "yelp---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd server && npm install && node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasquisler/restaurantReview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasquisler/restaurantReview/issues"
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "react-csp": "^1.1.3"
+  }
+}
