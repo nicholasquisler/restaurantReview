@@ -3,6 +3,9 @@
 ### Website Link
 - https://restaurant-review-pern.herokuapp.com/
 
+### Preview
+![alt text](https://github.com/nicholasquisler/nicholasquisler.github.io/raw/main/images/restaurantReviews.PNG)
+
 ### About
 - This is an website that was made with a PERN stack and allows users to create a restaurant with ratings and reviews.
 
